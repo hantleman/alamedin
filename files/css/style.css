@@ -190,7 +190,7 @@ nav ul ul li:hover
 
 #footer
 {
-    margin-top: 140px;
+    margin-top: 170px;
     background: #343434;
     max-width: 1920px;
     width: 100%;
@@ -258,7 +258,7 @@ nav ul ul li:hover
 {
     margin-top: 19px;
     font-family: Verdana,sans-serif;
-    height: 650px;
+    height: 620px;
     border-collapse: collapse;
     width: 100%;
 }
@@ -359,8 +359,9 @@ nav ul ul li:hover
     width: 780px;
     background: rgba(255,255,255,0.8);
     vertical-align: top;
-    line-height: 25px;
+    line-height: 22px;
     overflow: scroll;
+	font-size: 14px;
 }
 
 #pages
@@ -370,6 +371,7 @@ nav ul ul li:hover
     background: rgba(0,0,0,0.6);
     table-layout: fixed;
     text-align: center;
+	font-size: 14px;
 }
 
     #pages a
@@ -517,4 +519,9 @@ video
 #photo-pages-return {
 	display: block;
 	float: right;
+}
+
+h1 {
+	margin-top: 0px;
+	font-size: 20px;
 }
